@@ -1,0 +1,19 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #343a40; /* Dark background for the footer */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Padding for better spacing */
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Nice font for the footer */
+    font-size: 0.875rem; /* Slightly smaller font size */
+  }
+  
+  .footer a {
+    color: #ffffff; /* White link color */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+  }
+  

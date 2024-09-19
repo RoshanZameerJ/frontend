@@ -1,0 +1,87 @@
+.orders-list {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 1rem;
+}
+
+.orders-list h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+
+
+/* General styles for the orders list */
+.orders-list {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.orders-list h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #343a40;
+    text-align: center;
+}
+
+/* Individual order item styles */
+.order-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+.order-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for order details */
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-info {
+    flex-grow: 1;
+}
+
+.order-status {
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.order-status.completed {
+    background-color: #d4edda;
+    color: #155724; /* Dark green */
+}
+
+.order-status.pending {
+    background-color: #fff3cd;
+    color: #856404; /* Dark yellow */
+}
+
+.order-status.cancelled {
+    background-color: #f8d7da;
+    color: #721c24; /* Dark red */
+}
+
+/* Order timestamp styles */
+.order-timestamp {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+    text-align: right;
+}

@@ -1,0 +1,29 @@
+/* src/pages/LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Adjust if footer height is different */
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form .btn {
+    margin-top: 10px;
+  }
+  
+  .login-form .btn-secondary {
+    margin-left: 10px;
+  }
+  
